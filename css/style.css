@@ -12,6 +12,9 @@ body {
 	min-width: 960px;
 	margin: 0;
 }
+/*h2{
+	color: #efefef;
+}*/
 img {
 	border: 0;
 }
@@ -198,7 +201,7 @@ img {
 	color: #176eb0;
 }
 #adbox div.highlight {
-	background: #171a1a url(../images/adbox-bg-heading.jpg) repeat-x left top;
+	background: #efefef; url(../images/adbox-bg-heading.jpg) repeat-x left top;
 	min-height: 82px;
 	border-color: #000;
 	border-style: solid none;
@@ -306,6 +309,9 @@ img {
 }
 .pagination li a:hover, #pagination li.selected a {
 	color: #95d3f9;
+}
+.center{
+	margin: 5px 5px;
 }
 /** gallery **/
 #gallery #sidebar, #contact #sidebar {
